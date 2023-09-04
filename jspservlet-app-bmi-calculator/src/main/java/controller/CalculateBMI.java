@@ -1,7 +1,7 @@
 package controller;
 
 public class CalculateBMI {
-    public static void Main(String[] args) {
+    public static void main(String[] args){
         // // Example usage:
         // double height = 1.75; // Replace with the actual height in meters
         // double weight = 65.0; // Replace with the actual weight in kilograms
