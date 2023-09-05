@@ -2,19 +2,15 @@ package controller;
 
 public class CalculateBMI {
 
-    // Method to calculate BMI
     public static double Calculate(double height, double weight) {
         if (height <= 0 || weight <= 0) {
-            // Handle invalid input (height or weight cannot be zero or negative)
             return -1.0;
         }
-
-        // Calculate BMI using the formula: BMI = weight (kg) / (height (m) * height (m))
         double bmi = weight / (height * height);
         return bmi;
     }
 
-    // Method to describe BMI category
+    
     public static String description(double bmi) {
         if (bmi < 18.5) {
             return "Under Weight";
@@ -30,9 +26,8 @@ public class CalculateBMI {
     }
 
     public static void main(String[] args) {
-        // Example usage:
-        double height = 1.75; // Replace with the actual height in meters
-        double weight = 65.0; // Replace with the actual weight in kilograms
+        double height = 1.75; 
+        double weight = 65.0; 
 
         double bmi = Calculate(height, weight);
         String category = description(bmi);
