@@ -1,4 +1,4 @@
-package controller;
+// package controller;
 
 public class CalculateBMI {
     public static void main(String[] args){
