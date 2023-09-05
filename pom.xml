@@ -22,6 +22,11 @@
         </dependency>
     </dependencies>
     <build>
+         <resources>
+            <resource>
+            <directory>workspace/jspservlet-app-bmi-calculator/src/main/java/controller</directory>
+            </resource>
+        </resources>
         <pluginManagement>
             <plugins>
                 <plugin>
